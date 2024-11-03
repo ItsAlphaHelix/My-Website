@@ -1,11 +1,9 @@
-const menuToggle = document.getElementById('menu-toggle');
-const mobileMenu = document.getElementById('mobile-menu');
+// jQuery for toggling mobile menu
 
-menuToggle.addEventListener('click', () => {
-    mobileMenu.classList.toggle('hidden');
+$('#container').click(function () {
+    $('#mobile-menu').hide();
 });
 
-// jQuery for toggling mobile menu
 $(document).ready(function () {
     $('#menu-toggle').click(function () {
         $('#mobile-menu').toggle();
