@@ -39,7 +39,7 @@ $(document).ready(function () {
 });
 
 document.querySelector('#movies-dg').addEventListener('click', () => {
-    window.open('https://github.com/ItsAlphaHelix/MoviesDG');
+    window.open('https://moviedg.devmania.click');
 });
 
 document.querySelector('#clothing-store').addEventListener('click', () => {
