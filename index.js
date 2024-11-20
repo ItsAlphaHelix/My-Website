@@ -31,7 +31,7 @@ $(document).ready(function () {
     $('#dynamic-name').text(userName);
 
     new Typed('.typed', {
-        strings: ["Web Developer"],
+        strings: [".Net Developer"],
         typeSpeed: 100,
         backSpeed: 50,
         loop: true
